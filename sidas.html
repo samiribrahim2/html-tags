@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 10vw 90vw;
+            grid-template-rows: auto;
+            /* gap: ; */
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        aside {
+            grid-column: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+            overflow-y: auto;
+            min-width: 10vw;
+        }
+
+        aside h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside li {
+            margin-bottom: 8px;
+        }
+
+        aside a {
+            display: block;
+            color: #333;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        aside a:hover {
+            background-color: #ddd;
+        }
+
+        .content {
+            border: 1px solid #110f0f;
+            min-width: 90vw;
+            grid-column: 2;
+        }
+
+        .Tags {
+            display: grid;
+            grid-template-columns: 49vw 49vw;
+            grid-template-rows: auto;
+            /* min-width: 60vw; */
+            height: 40vh;
+            gap: 2vw;
+            border: 1px solid #000000;
+
+        }
+
+        .Tag {
+            grid-column: 1;
+            /* margin: 1rem; */
+            text-align: right;
+            overflow: auto;
+            overflow-wrap: break-word;
+            border: 1px solid #110f0f;
+            padding: 1rem;
+        }
+
+        .pic {
+            grid-column: 2;
+            /* border: 1px solid #110f0f; */
+            width: auto;
+        }
+        .pic > img{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <aside>
+        <h2>HTML Tags</h2>
+        <ul>
+            <li><a href="#a">a</a></li>
+            <li><a href="#article">article</a></li>
+            <li><a href="#aside">aside</a></li>
+            <li><a href="#audio">audio</a></li>
+            <li><a href="#b">b</a></li>
+            <li><a href="#body">body</a></li>
+            <li><a href="#br">br</a></li>
+            <li><a href="#button">button</a></li>
+            <li><a href="#datalist">datalist</a></li>
+            <li><a href="#del">del</a></li>
+            <li><a href="#details">details</a></li>
+            <li><a href="#div">div</a></li>
+            <li><a href="#figure">figure</a></li>
+            <li><a href="#footer">footer</a></li>
+            <li><a href="#form">form</a></li>
+            <li><a href="#h1">h1</a></li>
+            <li><a href="#h2">h2</a></li>
+            <li><a href="#h3">h3</a></li>
+            <li><a href="#head">head</a></li>
+            <li><a href="#header">header</a></li>
+            <li><a href="#hr">hr</a></li>
+            <li><a href="#html">html</a></li>
+            <li><a href="#i">i</a></li>
+            <li><a href="#iframe">iframe</a></li>
+            <li><a href="#img">img</a></li>
+            <li><a href="#input">input</a></li>
+            <li><a href="#label">label</a></li>
+            <li><a href="#li">li</a></li>
+            <li><a href="#link">link</a></li>
+            <li><a href="#map">map</a></li>
+            <li><a href="#mark">mark</a></li>
+            <li><a href="#meta">meta</a></li>
+            <li><a href="#nav">nav</a></li>
+            <li><a href="#ol">ol</a></li>
+            <li><a href="#option">option</a></li>
+            <li><a href="#output">output</a></li>
+            <li><a href="#p">p</a></li>
+            <li><a href="#script">script</a></li>
+            <li><a href="#section">section</a></li>
+            <li><a href="#select">select</a></li>
+            <li><a href="#span">span</a></li>
+            <li><a href="#style">style</a></li>
+            <li><a href="#sub">sub</a></li>
+            <li><a href="#sup">sup</a></li>
+            <li><a href="#table">table</a></li>
+            <li><a href="#tbody">tbody</a></li>
+            <li><a href="#td">td</a></li>
+            <li><a href="#tfoot">tfoot</a></li>
+            <li><a href="#th">th</a></li>
+            <li><a href="#thead">thead</a></li>
+            <li><a href="#time">time</a></li>
+            <li><a href="#title">title</a></li>
+            <li><a href="#tr">tr</a></li>
+            <li><a href="#ul">ul</a></li>
+            <li><a href="#video">video</a></li>
+        </ul>
+    </aside> -->
+    <div class="content">
+        <div class="Tags" id="">
+            <div class="Tag"> <br> تُستخدم لتعريف العنوان الرئيسي .
+                عادةً ما يكون هذا العنوان هو
+                الأكثر أهمية في الصفحة ويُستخدم لتمثيل عنوان أو موضوع المحتوى.
+                كما أن لهذا الوسم دورًا مهمًا في
+                تحسين محركات البحث ، <br>
+                حيث يتم استخدام محتوى الوسم لفهم الموضوع الأساسي للصفحة من قبل محركات
+                البحث.
+
+            </div>
+            <div>
+                <!-- <img src="imgs/image.png" alt=""> -->
+            </div>
+        </div>
+        <hr>
+
+      
+        <hr>
+    </div>
+</body>
+
+</html>
